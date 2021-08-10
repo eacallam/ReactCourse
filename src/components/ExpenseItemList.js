@@ -11,7 +11,7 @@ function ExpenseItemList(props) {
       date={expense.date}
     />
   ));
-  return <div>{listItems}</div>;
+  return <div class="expenses">{listItems}</div>;
 }
 
 export default ExpenseItemList;
